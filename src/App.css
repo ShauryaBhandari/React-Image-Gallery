@@ -5,3 +5,33 @@
   list-style-type: none;
   font-family: "Antic Didone", serif;
 }
+
+.bg {
+  background-image: url("./bg.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card {
+  background-color: #4a6ba0;
+  max-width: 18rem;
+  height: auto;
+  border-radius: 10px;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  box-shadow: 3px 3px 5px 6px #ccc;
+  margin: 1rem 1rem;
+}
+
+.card-img-top {
+  border-radius: 20px;
+  padding: 0.5rem;
+  min-height: 19rem;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-evenly;
+}
